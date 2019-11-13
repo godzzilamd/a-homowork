@@ -1,21 +1,6 @@
-Program P2;
-Uses Crt;
+Uses Math;
 
-
-
-function custom_pow(x,n:integer):longint;
-var i:byte;
+function lungime(r:real):real;
 begin
-    custom_pow := 1;
-    for i:= 1 to n do
-        custom_pow := custom_pow * x;
-    writeln(custom_pow);
+    lungime := 2 * Pi * r;
 end;
-
-begin
-ClrScr;
-
-custom_pow(4, 3);
-
-readkey;
-end.
