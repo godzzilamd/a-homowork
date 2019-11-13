@@ -15,7 +15,7 @@ end;
 begin
 ClrScr;
 
-custom_pow(2, 4);
+custom_pow(2, 5);
 
 readkey;
 end.
