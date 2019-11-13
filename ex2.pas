@@ -1,4 +1,4 @@
-function custom_pow(x,n:integer):longint;
+function custom_pow(x,n:byte):longint;
 var i:byte;
 begin
     custom_pow := 1;
