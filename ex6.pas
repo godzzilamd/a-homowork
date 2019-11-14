@@ -1,21 +1,4 @@
-Program P2;
-Uses Crt;
-
-
-
-function custom_pow(x,n:integer):longint;
-var i:byte;
+function convert(celsius:integer):real;
 begin
-    custom_pow := 1;
-    for i:= 1 to n do
-        custom_pow := custom_pow * x;
-    writeln(custom_pow);
+    convert := 9 / 5 * celsius + 32;
 end;
-
-begin
-ClrScr;
-
-custom_pow(4, 3);
-
-readkey;
-end.
